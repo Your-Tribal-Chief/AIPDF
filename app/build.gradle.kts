@@ -4,7 +4,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
-val ksFile = System.getenv("ALLPDF_KEYSTORE")?.let { file(it) } ?: rootProject.file("signing/allpdf-ci.jks")
+fun env(name: String): String? = System.getenv(name)?.takeIf { it.isNotBlank() }
+val ksFile = env("ALLPDF_KEYSTORE")?.let { file(it) } ?: rootProject.file("signing/allpdf-ci.jks")
 
 android {
     namespace = "com.allpdf.pro"
@@ -14,17 +15,17 @@ android {
         applicationId = "com.allpdf.pro"
         minSdk = 26
         targetSdk = 35
-        versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
-        versionName = "1.0." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
+        versionCode = (env("GITHUB_RUN_NUMBER") ?: "1").toInt()
+        versionName = "1.0." + (env("GITHUB_RUN_NUMBER") ?: "0")
         vectorDrawables { useSupportLibrary = true }
     }
 
     signingConfigs {
         create("release") {
             storeFile = ksFile
-            storePassword = System.getenv("ALLPDF_KEYSTORE_PASSWORD") ?: "allpdfpro"
-            keyAlias = System.getenv("ALLPDF_KEY_ALIAS") ?: "allpdf"
-            keyPassword = System.getenv("ALLPDF_KEY_PASSWORD") ?: "allpdfpro"
+            storePassword = env("ALLPDF_KEYSTORE_PASSWORD") ?: "allpdfpro"
+            keyAlias = env("ALLPDF_KEY_ALIAS") ?: "allpdf"
+            keyPassword = env("ALLPDF_KEY_PASSWORD") ?: "allpdfpro"
         }
     }
 
