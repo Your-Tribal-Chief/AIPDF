@@ -132,6 +132,7 @@ class EnginesTest {
     }
     @Test fun f01_protectUnlock() { SecurityEngine.protect(pdf, "secret", "", false, false, false, out("pr.pdf"), c)
         assertTrue(Pdf.needsPassword(out("pr.pdf"))); valid(SecurityEngine.unlock(out("pr.pdf"), "secret", out("un.pdf"), c), 3); assertTrue(!Pdf.needsPassword(out("un.pdf"))) }
+    @Test fun f00_textExtraction() { Pdf.load(pdf).use { d -> assertTrue(WordStripper().plainText(d, 0).contains("Quarterly")) } }
     @Test fun f02_redact() { SecurityEngine.redact(pdf, listOf(Overlay.Redact(0, 0.05f, 0.05f, 0.95f, 0.2f)), 120, true, out("rd.pdf"), c)
         Pdf.load(out("rd.pdf")).use { d -> val t = WordStripper().plainText(d, 0); assertTrue("text survived: $t", !t.contains("Quarterly")) } }
     @Test fun f03_compare() { val r = SecurityEngine.compare(pdf, pdf2, out("cmp.pdf"), c); valid(r.report); assertTrue(r.stats.modified + r.stats.added + r.stats.removed > 0) }

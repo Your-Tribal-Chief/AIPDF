@@ -27,6 +27,7 @@ class WordStripper : PDFTextStripper() {
     init { sortByPosition = true }
 
     override fun writeString(text: String?, textPositions: MutableList<TextPosition>?) {
+        super.writeString(text, textPositions) // keep plain-text output working
         if (textPositions.isNullOrEmpty() || text.isNullOrBlank()) return
         // split on internal spaces so each Layout.Word is a real word
         var cur = ArrayList<TextPosition>()

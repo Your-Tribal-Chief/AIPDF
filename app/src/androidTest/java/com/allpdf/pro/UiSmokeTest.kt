@@ -9,7 +9,7 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
-import androidx.compose.ui.test.hasScrollAction
+import androidx.compose.ui.test.hasScrollToIndexAction
 import androidx.test.espresso.Espresso
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.allpdf.pro.ui.Tool
@@ -25,7 +25,7 @@ class UiSmokeTest {
     @Test fun openEveryTool() {
         rule.onNodeWithText("AllPDF Pro").assertExists()
         for (t in Tool.entries) {
-            rule.onNode(hasScrollAction()).performScrollToNode(hasText(t.title))
+            rule.onNode(hasScrollToIndexAction()).performScrollToNode(hasText(t.title))
             rule.onAllNodesWithText(t.title).onLast().performClick()
             rule.waitForIdle()
             rule.onAllNodesWithContentDescription("Back").onFirst().performClick()
