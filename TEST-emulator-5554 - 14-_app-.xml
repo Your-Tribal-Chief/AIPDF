@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.allpdf.pro.EnginesTest" tests="33" failures="0" errors="0" skipped="0" time="32.832" timestamp="2026-11-22T09:16:17" hostname="localhost">
+  <properties>
+    <property name="device" value="emulator-5554 - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="a01_merge" classname="com.allpdf.pro.EnginesTest" time="0.219" />
+  <testcase name="a02_split" classname="com.allpdf.pro.EnginesTest" time="0.133" />
+  <testcase name="a03_remove" classname="com.allpdf.pro.EnginesTest" time="0.076" />
+  <testcase name="a04_extract" classname="com.allpdf.pro.EnginesTest" time="0.18" />
+  <testcase name="a05_organize" classname="com.allpdf.pro.EnginesTest" time="0.108" />
+  <testcase name="a06_rotate" classname="com.allpdf.pro.EnginesTest" time="0.053" />
+  <testcase name="b01_compress" classname="com.allpdf.pro.EnginesTest" time="0.355" />
+  <testcase name="b02_repair" classname="com.allpdf.pro.EnginesTest" time="0.555" />
+  <testcase name="b03_ocr" classname="com.allpdf.pro.EnginesTest" time="3.844" />
+  <testcase name="c01_images" classname="com.allpdf.pro.EnginesTest" time="0.111" />
+  <testcase name="c02_word" classname="com.allpdf.pro.EnginesTest" time="0.473" />
+  <testcase name="c03_ppt" classname="com.allpdf.pro.EnginesTest" time="0.557" />
+  <testcase name="c04_excel" classname="com.allpdf.pro.EnginesTest" time="0.231" />
+  <testcase name="c05_html" classname="com.allpdf.pro.EnginesTest" time="2.567" />
+  <testcase name="d01_toImages" classname="com.allpdf.pro.EnginesTest" time="0.254" />
+  <testcase name="d02_toDocx" classname="com.allpdf.pro.EnginesTest" time="0.46" />
+  <testcase name="d03_toPptx" classname="com.allpdf.pro.EnginesTest" time="0.68" />
+  <testcase name="d04_toXlsx" classname="com.allpdf.pro.EnginesTest" time="0.254" />
+  <testcase name="d05_pdfa" classname="com.allpdf.pro.EnginesTest" time="1.157" />
+  <testcase name="d06_md" classname="com.allpdf.pro.EnginesTest" time="0.28" />
+  <testcase name="e01_resize" classname="com.allpdf.pro.EnginesTest" time="0.253" />
+  <testcase name="e02_crop" classname="com.allpdf.pro.EnginesTest" time="0.076" />
+  <testcase name="e03_numbers" classname="com.allpdf.pro.EnginesTest" time="0.102" />
+  <testcase name="e04_watermark" classname="com.allpdf.pro.EnginesTest" time="0.907" />
+  <testcase name="e05_edit" classname="com.allpdf.pro.EnginesTest" time="0.757" />
+  <testcase name="e06_forms" classname="com.allpdf.pro.EnginesTest" time="0.507" />
+  <testcase name="f00_textExtraction" classname="com.allpdf.pro.EnginesTest" time="0.077" />
+  <testcase name="f01_protectUnlock" classname="com.allpdf.pro.EnginesTest" time="0.888" />
+  <testcase name="f02_redact" classname="com.allpdf.pro.EnginesTest" time="0.279" />
+  <testcase name="f03_compare" classname="com.allpdf.pro.EnginesTest" time="1.407" />
+  <testcase name="g01_workflow" classname="com.allpdf.pro.EnginesTest" time="1.23" />
+  <testcase name="g02_summarize" classname="com.allpdf.pro.EnginesTest" time="0.152" />
+  <testcase name="openEveryTool" classname="com.allpdf.pro.UiSmokeTest" time="12.428" />
+</testsuite>

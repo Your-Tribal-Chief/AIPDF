@@ -1,0 +1,400 @@
+11-22 09:13:41.733  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:41.733  1051  1051 W Telephony: registerImsRegistrationCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:41.733  1051  1051 D CarrierConfigLoader: Connected to config app: com.android.carrierconfig/.DefaultCarrierConfigService
+11-22 09:13:41.739  1650  1650 D PickerSyncController: Updated cloud provider to: null
+11-22 09:13:41.739  1650  1650 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+11-22 09:13:41.740  1518  1518 I ContactsDatabaseHelper: updateUseStrictPhoneNumberComparison: US
+11-22 09:13:41.745  1051  1755 D MmsSmsDatabaseHelper: clearMmsParts: removing all attachments from: /data/user_de/0/com.android.providers.telephony/app_parts
+11-22 09:13:41.746  1775  1775 V GraphicsEnvironment: Currently set values for:
+11-22 09:13:41.746  1775  1775 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-22 09:13:41.746  1775  1775 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-22 09:13:41.747  1775  1775 V GraphicsEnvironment: ANGLE GameManagerService for com.android.managedprovisioning: false
+11-22 09:13:41.747  1775  1775 V GraphicsEnvironment: com.android.managedprovisioning is not listed in per-application setting
+11-22 09:13:41.747  1775  1775 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-22 09:13:41.747  1737  1737 V GraphicsEnvironment: Currently set values for:
+11-22 09:13:41.747  1737  1737 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-22 09:13:41.747  1737  1737 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-22 09:13:41.748  1737  1737 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.youtube: false
+11-22 09:13:41.748  1737  1737 V GraphicsEnvironment: com.google.android.youtube is not listed in per-application setting
+11-22 09:13:41.748  1737  1737 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-22 09:13:41.750   519  1637 V BackupManagerConstants: getKeyValueBackupIntervalMilliseconds(...) returns 14400000
+11-22 09:13:41.750   519  1637 V BackupManagerConstants: getKeyValueBackupFuzzMilliseconds(...) returns 600000
+11-22 09:13:41.750   519  1637 V BackupManagerConstants: getKeyValueBackupRequiredNetworkType(...) returns 1
+--
+11-22 09:13:41.927   519  1701 W AppWidgetServiceImpl: Failed to read state: java.io.FileNotFoundException: /data/system/users/0/appwidgets.xml: open failed: ENOENT (No such file or directory)
+11-22 09:13:41.927   519  1701 V AppWidgetServiceImpl: Upgrading widget database from 0 to 1
+11-22 09:13:41.934  1643  1643 I AiAi    : AiAi onCreate: process=com.google.android.as, isDebug=false
+11-22 09:13:41.937  1643  1643 I AiAiMatchmaker: Locale changed: null -> en-us
+11-22 09:13:41.937   519   591 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10125; state: ENABLED
+11-22 09:13:41.945  1726  1726 V GraphicsEnvironment: Currently set values for:
+11-22 09:13:41.945  1726  1726 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-22 09:13:41.945  1726  1726 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-22 09:13:41.950  1051  1051 W nsconfig: com.android.phone: New config does not match the previously set config.
+11-22 09:13:41.951  1051  1051 D ONSAutoboot: Received android.intent.action.LOCKED_BOOT_COMPLETED
+11-22 09:13:41.958  1645  1906 W hbox:interactor: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (max-target-o, reflection, denied)
+11-22 09:13:41.959  1645  1906 W hbox:interactor: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+11-22 09:13:41.959  1645  1906 W hbox:interactor: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+11-22 09:13:41.968   519   591 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10132; state: DISABLED
+11-22 09:13:41.972  1726  1726 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.googlequicksearchbox: false
+11-22 09:13:41.973  1726  1726 V GraphicsEnvironment: com.google.android.googlequicksearchbox is not listed in per-application setting
+11-22 09:13:41.973  1726  1726 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-22 09:13:41.983  1726  1726 D CompatibilityChangeReporter: Compat change id reported: 3400644; UID 10132; state: DISABLED
+11-22 09:13:42.016  1817  1817 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 1000; state: ENABLED
+11-22 09:13:42.016  1817  1817 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 1000; state: ENABLED
+11-22 09:13:42.036  1051  1051 W FeatureConnection: getRegistrationTech: ImsRegistration is null
+--
+11-22 09:13:42.096  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:42.096  1051  1051 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+11-22 09:13:42.096  1051  1051 I Telephony:  isRttSupported: false
+11-22 09:13:42.096  1051  1051 I Telephony:  alwaysAllowWhileRoaming: false
+11-22 09:13:42.096  1051  1051 I Telephony:  isRoaming: false
+11-22 09:13:42.096  1051  1051 I Telephony:  isOnWfc: false
+11-22 09:13:42.107   519  1701 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10144; state: DISABLED
+11-22 09:13:42.107   519  1701 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10144; state: DISABLED
+11-22 09:13:42.107   519  1701 W ActivityTaskManager: Current config: {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mMaxBounds=Rect(0, 0 - 320, 640) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.36 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+11-22 09:13:42.107   519  1701 W ActivityTaskManager: Current config: {1.0 310mcc260mnc [en_US] ldltr sw320dp w320dp h616dp 160dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 640) mAppBounds=Rect(0, 0 - 320, 640) mMaxBounds=Rect(0, 0 - 320, 640) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.36 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+11-22 09:13:42.162   519   884 D BufferPoolAccessor2.0: bufferpool2 0x7ff5aab57328 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/34 (fetch/transfer)
+11-22 09:13:42.162   519   884 D BufferPoolAccessor2.0: bufferpool2 0x7ff5aab4fae8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/26 (fetch/transfer)
+11-22 09:13:42.162   519   884 D BufferPoolAccessor2.0: bufferpool2 0x7ff5aab56c38 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+11-22 09:13:42.162   519   884 D BufferPoolAccessor2.0: bufferpool2 0x7ff5aab59828 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/34 (fetch/transfer)
+11-22 09:13:42.162   519   884 D BufferPoolAccessor2.0: evictor expired: 4, evicted: 4
+11-22 09:13:42.166  1051  1051 I Telephony: AccountEntry: registerPstnPhoneAccount: Registering account=[[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with Telecom. subId=1
+11-22 09:13:42.166   519  1701 I Telecom : : registerPhoneAccount: account=[[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA(cap)@ADQ🔒
+11-22 09:13:42.167   519  1701 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0}]: TSI.rPA(cap)@ADQ🔒
+11-22 09:13:42.167   519  1701 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA(cap)@ADQ🔒
+11-22 09:13:42.177  1557  1557 I InputMethodEntryManager: InputMethodEntryManager$5.onSuccess():845 Success load entries: [LanguageTagVariantTuple{languageTag=en-US, variant=qwerty}, LanguageTagVariantTuple{languageTag=zz, variant=qwerty}], resetImplicitlyEnabledEntries=false
+11-22 09:13:42.181  1557  1557 I InputMethodEntryManager: InputMethodEntryManager.changeEnabledInputMethodEntries():1684 Change enabled input method entries, useSystemLanguage=true, old=, new=en-US:qwerty
+--
+11-22 09:13:42.370  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:42.370  1557  1557 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:320
+11-22 09:13:42.370  1557  1557 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:320
+11-22 09:13:42.371  1557  1557 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:320
+11-22 09:13:42.371  1557  1557 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:320
+11-22 09:13:42.371  1557  1557 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1343 Apply keyboard theme: theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_materiallight_phone_300_overlay_builtin_dynamic_color_light_base.binarypb:dynamic-light-fff1f0f7-ffb2c5ff-734dbefe1e6f4840c010420f35e14fb0_port
+11-22 09:13:42.372  1953  1953 I id.partnersetup: Using CollectorTypeCC GC.
+11-22 09:13:42.373  1953  1953 W id.partnersetup: Unexpected CPU variant for x86: x86_64.
+11-22 09:13:42.373  1953  1953 W id.partnersetup: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+11-22 09:13:42.373  1557  1669 I KeyboardGroupDefParser: KeyboardGroupDefParser.parseKeyboardGroupDef():88 parseKeyboardGroupDef() 2132214023 -> 0_resource_name_obfuscated : WaitTime = 1 ms : RunTime = 5 ms
+11-22 09:13:42.379  1650  1650 D CompatibilityChangeReporter: Compat change id reported: 148180766; UID 10191; state: ENABLED
+11-22 09:13:42.383  1051  1051 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+11-22 09:13:42.383  1051  1051 I Telephony:  isRttSupported: false
+11-22 09:13:42.383  1051  1051 I Telephony:  alwaysAllowWhileRoaming: false
+11-22 09:13:42.383  1051  1051 I Telephony:  isRoaming: false
+11-22 09:13:42.383  1051  1051 I Telephony:  isOnWfc: false
+11-22 09:13:42.385  1557  1557 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():234 startImportContentTask()
+11-22 09:13:42.390  1643  1643 I AiAiSpeechRecognition: Scheduling background LanguagePack tasks periodically and onLocaleChange...
+11-22 09:13:42.392   519   914 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-22 09:13:42.392   519   914 D PackageManager: Clear ephemeral installer activity
+11-22 09:13:42.397   519   597 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10131; state: ENABLED
+--
+11-22 09:13:42.697  1650  1962 W MediaProvider: Exception encountered while reading xattr:user.extdbsessionid0 from path:/data/user/0/com.google.android.providers.media.module/databases/external.db.
+11-22 09:13:42.697  1650  1962 W MediaProvider: Exception encountered while reading xattr:user.extdbsessionid0 from path:/data/media/0.
+11-22 09:13:42.697  1650  1962 E MediaProvider: Xattr:user.extdbnextrowid0 not found on external storage: android.system.ErrnoException: getxattr failed: ENODATA (No data available)
+11-22 09:13:42.697  1650  1962 W MediaProvider: external.db database inconsistent: isLastUsedDatabaseSession:false, nextRowIdOptionalPresent:false
+11-22 09:13:42.697  1650  1962 E MediaProvider: Xattr:user.extdbnextrowid0 not found on external storage: android.system.ErrnoException: getxattr failed: ENODATA (No data available)
+11-22 09:13:42.699  1758  1758 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10131; state: ENABLED
+11-22 09:13:42.699  1650  1962 D MediaProvider: xattr set to 1000001000 for key:user.extdbnextrowid0 on path: /data/media/0.
+11-22 09:13:42.699  1650  1962 I MediaProvider: Backed up next row id as:1000001000 on path:/data/media/0 for external.db.
+11-22 09:13:42.700  1650  1962 I MediaProvider: Updated sqlite counter of Files table of external.db to 1000000000.
+11-22 09:13:42.702  1650  1962 D MediaProvider: xattr set to d3d61dd6-9552-4f8e-8008-bbdc6b54d214 for key:user.extdbsessionid0 on path: /data/user/0/com.google.android.providers.media.module/databases/external.db.
+11-22 09:13:42.712  1650  1962 D MediaProvider: xattr set to d3d61dd6-9552-4f8e-8008-bbdc6b54d214 for key:user.extdbsessionid0 on path: /data/media/0.
+11-22 09:13:42.712  1650  1962 I MediaProvider: SessionId set to d3d61dd6-9552-4f8e-8008-bbdc6b54d214 on paths /data/user/0/com.google.android.providers.media.module/databases/external.db and /data/media/0.
+11-22 09:13:42.723   519   546 D WallpaperManagerService: Wallpaper_selinux_restorecon-0
+11-22 09:13:42.724   519   546 V WallpaperManagerService: Wallpaper_selinux_restorecon-0 took to complete: 0ms
+11-22 09:13:42.731   519   532 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10131. pid: 1758
+11-22 09:13:42.732  1557  1835 I ShortcutsDataManager: AbstractContentDataManager.importRecords():338 importRecords() : Success : Count = 0
+11-22 09:13:42.737   519   532 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-22 09:13:42.737   519   532 D PackageManager: Clear ephemeral installer activity
+11-22 09:13:42.740   838   912 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-22 09:13:42.750  1413  1426 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10131; state: ENABLED
+11-22 09:13:42.754  1758  1907 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10131; state: ENABLED
+11-22 09:13:42.759   519   532 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10087; state: DISABLED
+11-22 09:13:42.760   519   532 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10087; state: DISABLED
+11-22 09:13:42.762   519   532 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10087; state: DISABLED
+11-22 09:13:42.764   519   532 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10087; state: ENABLED
+--
+11-22 09:13:43.140   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.142   519  1436 D CompatibilityChangeReporter: Compat change id reported: 157233955; UID 1000; state: ENABLED
+11-22 09:13:43.142  1051  1221 D TelephonyProvider: subIdString = 1 subId = 1
+11-22 09:13:43.146   519   774 E AppOps  : attributionTag VCN not declared in manifest of android
+11-22 09:13:43.147   519   774 I VcnManagementService: new snapshot: TelephonySubscriptionSnapshot{ mActiveDataSubId=1, mSubIdToInfoMap={}, mSubIdToCarrierConfigMap={1=PersistableBundle[{carrier_config_applied_bool=true, carrier_config_version_string=}]}, mPrivilegedPackages={} }
+11-22 09:13:43.149   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.155   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.164  1737  2011 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10138; state: ENABLED
+11-22 09:13:43.169  1643  2065 W SP.AiAi : isDirectory returned false while listing files for /data/user/0/com.google.android.as/files/superpacks/manifests
+11-22 09:13:43.177   838   838 D TileServices: Couldn't find tile for ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.screen.ui.GrayscaleTileService}(0)
+11-22 09:13:43.179   337   337 D Zygote  : Forked child process 2101
+11-22 09:13:43.182  1051  1051 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0, subId=1
+11-22 09:13:43.188   519   914 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10124. pid: 1953
+11-22 09:13:43.191   519   914 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10155; state: DISABLED
+11-22 09:13:43.191   519   914 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10155; state: DISABLED
+11-22 09:13:43.191   519   914 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10155; state: ENABLED
+11-22 09:13:43.192  1051  1051 D MultiSimSettingController: onSubscriptionsChanged
+11-22 09:13:43.192  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.192  1051  1051 D MultiSimSettingController: updateDefaults
+11-22 09:13:43.192  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.193  1650  2063 V FuseDaemonThread: Waiting 1000ms for FUSE start. Count 4
+11-22 09:13:43.193  1051  1051 D MultiSimSettingController: updateDefaultValues: change: 0
+11-22 09:13:43.193  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.193  1051  1051 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+11-22 09:13:43.193  1051  1051 I NotificationMgr: updateCfi: subId= 1, visible=N
+11-22 09:13:43.194  1051  1051 I NotificationMgr: updateMwi(): subId 1 update to false
+11-22 09:13:43.194  1051  1051 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+--
+11-22 09:13:43.199   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.201   519  1971 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-22 09:13:43.201   519  1971 D PackageManager: Clear ephemeral installer activity
+11-22 09:13:43.202  2049  2049 E d.process.media: Not starting debugger since process cannot load the jdwp agent.
+11-22 09:13:43.204   519   548 W ActivityManager: Slow operation: 133ms so far, now at startProcess: returned from zygote!
+11-22 09:13:43.211   838   877 E SingleInstanceRemoteListener: Failed remote call on null listener
+11-22 09:13:43.213   519   519 W Looper  : Slow dispatch took 123ms main h=android.os.Handler c=android.database.ContentObserver$$ExternalSyntheticLambda0@62e8435 m=0
+11-22 09:13:43.215  2073  2073 I id.printspooler: Using CollectorTypeCC GC.
+11-22 09:13:43.215  2073  2073 W id.printspooler: Unexpected CPU variant for x86: x86_64.
+11-22 09:13:43.215  2073  2073 W id.printspooler: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+11-22 09:13:43.223   838   877 E SingleInstanceRemoteListener: Failed remote call on null listener
+11-22 09:13:43.224  1645  1645 I A       : Building OnDeviceNameResolver: 4 endpoints.
+11-22 09:13:43.224  1464  1464 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+11-22 09:13:43.224  1464  1464 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+11-22 09:13:43.229   519   548 W ActivityManager: Slow operation: 158ms so far, now at startProcess: done updating battery stats
+11-22 09:13:43.229   519   548 W ActivityManager: Slow operation: 158ms so far, now at startProcess: building log message
+11-22 09:13:43.229   519   548 I ActivityManager: Start proc 2101:com.google.android.devicelockcontroller/u0a188 for broadcast {com.google.android.devicelockcontroller/com.android.devicelockcontroller.receivers.LockedBootCompletedReceiver}
+11-22 09:13:43.229   519   548 W ActivityManager: Slow operation: 158ms so far, now at startProcess: starting to update pids map
+11-22 09:13:43.230   519   548 W ActivityManager: Slow operation: 158ms so far, now at startProcess: done updating pids map
+11-22 09:13:43.230   519   548 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10155; state: ENABLED
+11-22 09:13:43.237  1102  1102 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+--
+11-22 09:13:43.341  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:43.341  1051  1051 W Telephony: registerImsRegistrationCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:43.343  1051  1051 D MultiSimSettingController: onSubscriptionsChanged
+11-22 09:13:43.343  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.344  1051  1051 D MultiSimSettingController: updateDefaults
+11-22 09:13:43.344  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.345  1051  1051 D MultiSimSettingController: updateDefaultValues: change: 0
+11-22 09:13:43.346  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:43.349  1051  1051 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+11-22 09:13:43.349  1051  1051 I NotificationMgr: updateCfi: subId= 1, visible=N
+11-22 09:13:43.353  1051  1051 I NotificationMgr: updateMwi(): subId 1 update to false
+11-22 09:13:43.354  1051  1051 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+11-22 09:13:43.354  1051  1051 I Telephony: PstnIncomingCallNotifier: Unregistering: [0]
+11-22 09:13:43.355  1051  1051 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {6a19d3}
+11-22 09:13:43.355  1051  1051 I PhoneInterfaceManager: unregisterMmTelCapabilityCallback: 1 is inactive, ignoring unregister.
+11-22 09:13:43.355  1051  1051 I PhoneInterfaceManager: unregisterImsRegistrationCallback: 1is inactive, ignoring unregister.
+11-22 09:13:43.357  1464  1464 I NearbySharing: SharingTileService created. [CONTEXT service_id=194 ]
+11-22 09:13:43.357  1051  1051 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+11-22 09:13:43.358  1051  1051 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+11-22 09:13:43.360  1051  1051 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-22 09:13:43.360  1051  1051 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-22 09:13:43.361  1051  1051 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+--
+11-22 09:13:43.477  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:43.478  1051  1051 W Telephony: registerImsRegistrationCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:43.478  1051  1051 D CarrierKeyDownloadManager: Carrier Config changed: slotIndex=0
+11-22 09:13:43.479  1051  1051 D CarrierKeyDownloadManager: Carrier not enabled or invalid values. mKeyAvailability=0 mURL=null
+11-22 09:13:43.479  1051  1051 D CarrierKeyDownloadManager: Cleaning up existing renewal alarms
+11-22 09:13:43.481  1051  1051 I CarrierInfoManager: deleting carrier key from db for subId=1
+11-22 09:13:43.481  1051  1051 D CarrierProvider:   delete.count=0
+11-22 09:13:43.482  1051  1051 I CarrierInfoManager: Deleting the number of entries = 0   for carrierId = 1
+11-22 09:13:43.485  2073  2073 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10104; state: ENABLED
+11-22 09:13:43.485  2049  2049 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10087; state: ENABLED
+11-22 09:13:43.485  2101  2101 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10188; state: ENABLED
+11-22 09:13:43.488   519   998 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10188; state: ENABLED
+11-22 09:13:43.489  2101  2101 D nativeloader: Configuring clns-shared-6 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@UE1A.230829.050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.devicelockcontroller:/apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@UE1A.230829.050:/system/lib64:/system_ext/lib64
+11-22 09:13:43.491   519  1971 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10087; state: ENABLED
+11-22 09:13:43.492  2049  2049 D CompatibilityChangeReporter: Compat change id reported: 3400644; UID 10087; state: ENABLED
+11-22 09:13:43.494   519   532 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10104; state: ENABLED
+11-22 09:13:43.500  2073  2073 D CompatibilityChangeReporter: Compat change id reported: 3400644; UID 10104; state: ENABLED
+11-22 09:13:43.502  2073  2073 D nativeloader: Configuring clns-shared-6 for other apk /system/app/PrintSpooler/PrintSpooler.apk. target_sdk_version=34, uses_libraries=, library_path=/system/app/PrintSpooler/lib/x86_64:/system/app/PrintSpooler/PrintSpooler.apk!/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.printspooler:/system/app/PrintSpooler:/system/lib64:/system_ext/lib64
+11-22 09:13:43.504  2101  2101 D nativeloader: Configuring clns-shared-7 for other apk /apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@UE1A.230829.050/DeviceLockControllerGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@UE1A.230829.050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.devicelockcontroller:/apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@UE1A.230829.050:/system/lib64:/system_ext/lib64
+11-22 09:13:43.505  2049  2049 D nativeloader: Configuring clns-shared-6 for other apk /system/priv-app/MediaProviderLegacy/MediaProviderLegacy.apk. target_sdk_version=34, uses_libraries=, library_path=/system/priv-app/MediaProviderLegacy/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.providers.media:/system/priv-app/MediaProviderLegacy:/system/lib64:/system_ext/lib64
+11-22 09:13:43.507  1737  2004 D TrafficStats: tagSocket(86) with statsTag=0xffffffff, statsUid=-1
+11-22 09:13:43.510   519  1971 I DefaultPermGrantPolicy: Revoking permissions from disabled data services for user:0
+--
+11-22 09:13:43.868   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.874  1102  1102 D DeviceSearchAlg: search timeout = %d200
+11-22 09:13:43.879  1102  1102 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-22 09:13:43.879  1102  1102 W BcSmartspaceView: Current card is not present in the Adapter; cannot log.
+11-22 09:13:43.889   519   998 D SystemServerTiming: getUserSwitchability-0
+11-22 09:13:43.889   519   998 D SystemServerTiming: TM.isInCall
+11-22 09:13:43.893   519   998 V SystemServerTiming: TM.isInCall took to complete: 3ms
+11-22 09:13:43.895  1102  1102 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=false, isDefaultHomeNull=true, mIsDefaultHome=false
+11-22 09:13:43.902   519   998 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+11-22 09:13:43.902   519   998 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+11-22 09:13:43.902   519   998 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+11-22 09:13:43.903   519   998 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+11-22 09:13:43.903   519   998 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+11-22 09:13:43.903   519   998 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+11-22 09:13:43.903   519   998 V SystemServerTiming: getUserSwitchability-0 took to complete: 14ms
+11-22 09:13:43.903   519   998 D SystemServerTiming: getUserSwitchability-0
+11-22 09:13:43.904   519   597 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10169; state: DISABLED
+11-22 09:13:43.908   519   998 D SystemServerTiming: TM.isInCall
+11-22 09:13:43.922   519   998 V SystemServerTiming: TM.isInCall took to complete: 0ms
+11-22 09:13:43.924   519   998 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+11-22 09:13:43.924   519   998 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+--
+11-22 09:13:43.931   519   759 W BestClock: java.time.DateTimeException: Missing network time fix
+11-22 09:13:43.932   519   761 D WifiService: ACTION_CARRIER_CONFIG_CHANGED, active subId: 1
+11-22 09:13:43.943  1102  1102 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10169; state: DISABLED
+11-22 09:13:43.943  1102  1102 W OpenGLRenderer: Unknown dataspace 0
+11-22 09:13:43.944  1102  1140 D LoaderTask: loadWorkspace: loading default favorites
+11-22 09:13:43.945   519   823 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10169; state: DISABLED
+11-22 09:13:43.945   519   823 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10169; state: DISABLED
+11-22 09:13:43.957  1102  1140 D ActivityThread: Loading provider com.google.android.apps.nexuslauncher.settings: com.android.launcher3.LauncherProvider
+11-22 09:13:43.958   519   547 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10117; state: DISABLED
+11-22 09:13:43.958   519   547 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10117; state: DISABLED
+11-22 09:13:43.959   519   547 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10117; state: DISABLED
+11-22 09:13:43.960   519   547 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10117; state: ENABLED
+11-22 09:13:43.960   519   548 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10117; state: ENABLED
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: No service published for: ethernet
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:166)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$139.createService(SystemServiceRegistry.java:1872)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:1971)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1645)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2212)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:934)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.isEthernetSupported(Tethering.java:1582)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.makeSupportedDownstreams(Tethering.java:2550)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.updateSupportedDownstreams(Tethering.java:2524)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.updateConfiguration(Tethering.java:546)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.lambda$new$3(Tethering.java:345)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering.$r8$lambda$bts3FsOwVdwDhrwMjvAr9kV3Jgs(Tethering.java:0)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.Tethering$$ExternalSyntheticLambda7.accept(R8$$SyntheticClass:0)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at com.android.networkstack.tethering.util.VersionedBroadcastListener$Receiver.onReceive(VersionedBroadcastListener.java:103)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1802)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$gDuJqgxY6Zb-ifyeubKeivTLAwk(Unknown Source:0)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(Unknown Source:2)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.os.Handler.handleCallback(Handler.java:958)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-22 09:13:43.962  1002  1025 E SystemServiceRegistry: 	at android.os.Looper.loopOnce(Looper.java:205)
+--
+11-22 09:13:44.039  2101  2101 E AggregateFuture: java.lang.IllegalStateException: Setup parameters does not exist!
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.android.devicelockcontroller.policy.UserRestrictionsPolicyHandler.lambda$retrieveOptionalAlwaysOnRestrictions$4(UserRestrictionsPolicyHandler.java:164)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.android.devicelockcontroller.policy.UserRestrictionsPolicyHandler.$r8$lambda$hRL-2WryZNUlIlcWmeUJRllU6-Y(UserRestrictionsPolicyHandler.java:0)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.android.devicelockcontroller.policy.UserRestrictionsPolicyHandler$$ExternalSyntheticLambda5.call(R8$$SyntheticClass:0)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.google.common.util.concurrent.CombinedFuture$CallableInterruptibleTask.runInterruptibly(CombinedFuture.java:196)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:74)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at android.os.Handler.handleCallback(Handler.java:958)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at android.os.Looper.loopOnce(Looper.java:205)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at android.os.Looper.loop(Looper.java:294)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at java.lang.reflect.Method.invoke(Native Method)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+11-22 09:13:44.039  2101  2101 E AggregateFuture: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+11-22 09:13:44.039  2101  2101 I DeviceLockControllerApplication: Policies enforced
+11-22 09:13:44.089   477   836 D BufferPoolAccessor2.0: bufferpool2 0x774bd9478318 : 0(0 size) total buffers - 0(0 size) used buffers - 6/7 (recycle/alloc) - 1/6 (fetch/transfer)
+11-22 09:13:44.089   477   836 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+11-22 09:13:44.091  1051  1051 D MultiSimSettingController: onCarrierConfigChanged phoneId 0 subId 1
+11-22 09:13:44.091  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+11-22 09:13:44.091  1051  1051 D MultiSimSettingController: updateDefaults
+11-22 09:13:44.091  1051  1051 D MultiSimSettingController: isReadyToReevaluate: subInfoInitialized=true, carrierConfigsLoaded=true
+--
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: java.io.FileNotFoundException: midasnet_mobilenetv2_dptmqn_dec128_full_082421_384_384_fp16_opt.tflite
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.content.res.AssetManager.open(AssetManager.java:904)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.content.res.AssetManager.open(AssetManager.java:881)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at jfj.f(PG:1)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at jfj.e(PG:3)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at jfj.<init>(PG:4)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at bty.l(PG:90)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at bty.a(PG:213)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at qbx.a(PG:1)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at bty.l(PG:91)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at bty.a(PG:213)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at qbx.a(PG:1)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at fxy.onCreate(PG:5)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4651)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2264)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.os.Looper.loopOnce(Looper.java:205)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.os.Looper.loop(Looper.java:294)
+11-22 09:13:44.208  1643  1643 E AiAiWallpaperEffectsGen: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+--
+11-22 09:13:44.247  1051  1051 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+11-22 09:13:44.247  1051  1051 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+11-22 09:13:44.247  1051  1051 I Telephony:  isRttSupported: false
+11-22 09:13:44.247  1051  1051 I Telephony:  alwaysAllowWhileRoaming: false
+11-22 09:13:44.247  1051  1051 I Telephony:  isRoaming: false
+11-22 09:13:44.247  1051  1051 I Telephony:  isOnWfc: false
+11-22 09:13:44.248   519  1093 D ConnectivityService: requestNetwork for uid/pid:10138/1737 activeRequest: null callbackRequest: 46 [NetworkRequest [ REQUEST id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10138 RequestorUid: 10138 RequestorPkg: com.google.android.youtube UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-22 09:13:44.251   519   768 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+11-22 09:13:44.252   519   761 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10138 RequestorUid: 10138 RequestorPkg: com.google.android.youtube UnderlyingNetworks: Null] ]
+11-22 09:13:44.252   519   761 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10138 RequestorUid: 10138 RequestorPkg: com.google.android.youtube UnderlyingNetworks: Null] ]
+11-22 09:13:44.252   519   761 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10138 RequestorUid: 10138 RequestorPkg: com.google.android.youtube UnderlyingNetworks: Null] ]
+11-22 09:13:44.252   519   761 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10138 RequestorUid: 10138 RequestorPkg: com.google.android.youtube UnderlyingNetworks: Null] ]
+11-22 09:13:44.252  2125  2125 D nativeloader: Configuring clns-6 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/product/app/GoogleContacts/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.contacts
+11-22 09:13:44.253  2125  2125 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-22 09:13:44.253  2125  2125 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-22 09:13:44.268   519  1973 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10117; state: DISABLED
+11-22 09:13:44.270   519  1973 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10117; state: DISABLED
+11-22 09:13:44.273  1102  1102 D TISBindHelper: TIS service connected
+11-22 09:13:44.273  1102  1102 D b/254119092: Set mActivity=com.google.android.apps.nexuslauncher.NexusLauncherActivity@a4d0717
+11-22 09:13:44.273  1102  1102 D b/254119092: mActivity and mContext agree taskbarIsPresent=false
+11-22 09:13:44.274   519   597 D SystemServerTiming: getUserSwitchability-0
+--
+11-22 09:13:44.323   519  1647 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+11-22 09:13:44.329  1051  1051 I PhoneInterfaceManager: setVoiceServiceStateOverride: subId=1, phone=Handler (com.android.internal.telephony.GsmCdmaPhone) {6a19d3}, hasService=false, callingPackage=com.android.server.telecom
+11-22 09:13:44.330  1051  1051 D TelephonyProvider: subId:1 mccmnc=310260 carrierId=1, match current APN size:  1
+11-22 09:13:44.330   519   632 I StorageSessionController: Notifying volume state changed for session with id: emulated;0
+11-22 09:13:44.330   519  2054 I DevicePolicyEngine: Couldn't find any receivers that handle ACTION_DEVICE_POLICY_SET_RESULT in package com.google.android.devicelockcontroller
+11-22 09:13:44.331   519  2054 D DevicePolicyEngine: Writing device policies to file.
+11-22 09:13:44.331   519  2054 D DevicePolicyEngine: Writing to /data/system/device_policy_state.xml
+11-22 09:13:44.331   519   533 V SystemServerTiming: TM.isInCall took to complete: 9ms
+11-22 09:13:44.331   519   533 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+11-22 09:13:44.331   519   533 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+11-22 09:13:44.331   519   533 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+11-22 09:13:44.331   519   533 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+11-22 09:13:44.331   519   533 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+11-22 09:13:44.331   519   533 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+11-22 09:13:44.332   519   533 V SystemServerTiming: getUserSwitchability-0 took to complete: 11ms
+11-22 09:13:44.335  1051  1051 D TelephonyProvider: match MNO APN: 1
+11-22 09:13:44.335  1051  1051 D TelephonyProvider: match carrier id APN: 0
+11-22 09:13:44.337   519  2054 D SystemServerTiming: getUserSwitchability-0
+11-22 09:13:44.337   519  2054 D SystemServerTiming: TM.isInCall
+11-22 09:13:44.337   519  2054 V SystemServerTiming: TM.isInCall took to complete: 1ms
+11-22 09:13:44.337   519  2054 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+--
+11-22 09:13:44.667  1413  1490 W AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at bwfc.e(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at bwfc.f(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at avsy.eo(:com.google.android.gms@231818047@23.18.18 (190800-535401451):1)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at avtf.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):14)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at dfhf.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+11-22 09:13:44.667  1413  1490 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+11-22 09:13:44.668  1413  1490 W bwft    : Succeeded but not registered: com.google.android.apps.wellbeing.device#com.google.android.apps.wellbeing [CONTEXT service_id=51 ]
+11-22 09:13:44.669  1737  1737 W YouTube : ECatcher disabled: level: WARNING, category: logging, message: Failed to commit to snapshot for Mendel package com.youtube.mainapp.android
+11-22 09:13:44.669  1737  1737 W YouTube : oqq: 29503: 
+11-22 09:13:44.669  1737  1737 W YouTube : 	at ovt.bb(PG:13)
+11-22 09:13:44.669  1737  1737 W YouTube : 	at ovt.bf(PG:11)
+11-22 09:13:44.669  1737  1737 W YouTube : 	at ovt.be(PG:2)
+11-22 09:13:44.669  1737  1737 W YouTube : 	at ppl.dispatchTransaction(PG:574)
+11-22 09:13:44.669  1737  1737 W YouTube : 	at fuq.onTransact(PG:13)
+11-22 09:13:44.669  1737  1737 W YouTube : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+--
+11-22 09:13:44.787  1413  1490 W AsyncOperation: OperationException[Status{statusCode=Empty (package not registered?) or malformed snapshot token for null: , resolution=null}]
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at bwfc.e(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at bwfc.f(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at avsy.eo(:com.google.android.gms@231818047@23.18.18 (190800-535401451):1)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at avtf.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):14)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at dfhf.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):8)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+11-22 09:13:44.787  1413  1490 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+11-22 09:13:44.787  1413  1490 W bwft    : Succeeded but not registered: com.google.android.apps.wellbeing.device#com.google.android.apps.wellbeing [CONTEXT service_id=51 ]
+11-22 09:13:44.788  1413  1490 W bwft    : Succeeded but not registered: com.google.android.libraries.search.device#com.google.android.googlequicksearchbox [CONTEXT service_id=51 ]
+11-22 09:13:44.793   838   911 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+11-22 09:13:44.796  1726  2326 I PodcastAudioPlayer: getOrCreateMediaSessionToken
+11-22 09:13:44.801   838   911 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+11-22 09:13:44.803  1645  2022 W TimedProcessReaper: Scheduling killing of process to refresh configuration
+11-22 09:13:44.803  2228  2228 I AstreaGrpcService: AstreaGrpcService#onCreate called with the following services: [com.google.android.apps.miphone.astrea.pd.api.ProtectedDownloadService, com.google.android.apps.miphone.astrea.http.api.HttpService, com.google.android.apps.miphone.astrea.fl.api.TrainingService, com.google.android.apps.miphone.astrea.pir.api.PirService]
+11-22 09:13:44.808  1726  2296 I Search.LoginHelperImpl: Getting accounts.
+11-22 09:13:44.826   519   914 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10156; state: DISABLED
