@@ -1,0 +1,108 @@
+== build-tools 37.0.0 ==
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=AllPDF Pro, O=AllPDF, C=BD
+V2 Signer: certificate SHA-256 digest: fe4728b8c5d165664d5fba99647543d3cdd2e850089d8706e52ce4e0844585a8
+V2 Signer: certificate SHA-1 digest: 546c95e1d46fe288b6f6417d524f0fb528bbfb09
+V2 Signer: certificate MD5 digest: b95aefce75cc93d634740189255502c0
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 2048
+V2 Signer: public key SHA-256 digest: 364afbe9859dcfafa5bfae1f8dcb6122fdcf3f0f7e8ece6cd77e030cac2a353c
+V2 Signer: public key SHA-1 digest: 641a471b00b91e9b7987800b5b505c44e91af052
+V2 Signer: public key MD5 digest: 6a0c9b4cbb4a74e7fbc84af8355ce3ab
+== badging ==
+package: name='com.allpdf.pro' versionCode='9' versionName='1.0.9' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+minSdkVersion:'26'
+targetSdkVersion:'35'
+uses-permission: name='com.allpdf.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'AllPDF Pro'
+application-label-af:'AllPDF Pro'
+application-label-am:'AllPDF Pro'
+application-label-ar:'AllPDF Pro'
+application-label-as:'AllPDF Pro'
+application-label-az:'AllPDF Pro'
+application-label-be:'AllPDF Pro'
+application-label-bg:'AllPDF Pro'
+application-label-bn:'AllPDF Pro'
+application-label-bs:'AllPDF Pro'
+application-label-ca:'AllPDF Pro'
+application-label-cs:'AllPDF Pro'
+application-label-da:'AllPDF Pro'
+application-label-de:'AllPDF Pro'
+application-label-el:'AllPDF Pro'
+application-label-en-AU:'AllPDF Pro'
+application-label-en-CA:'AllPDF Pro'
+application-label-en-GB:'AllPDF Pro'
+application-label-en-IN:'AllPDF Pro'
+application-label-en-XC:'AllPDF Pro'
+application-label-es:'AllPDF Pro'
+application-label-es-US:'AllPDF Pro'
+application-label-et:'AllPDF Pro'
+application-label-eu:'AllPDF Pro'
+application-label-fa:'AllPDF Pro'
+application-label-fi:'AllPDF Pro'
+application-label-fr:'AllPDF Pro'
+application-label-fr-CA:'AllPDF Pro'
+application-label-gl:'AllPDF Pro'
+application-label-gu:'AllPDF Pro'
+application-label-hi:'AllPDF Pro'
+application-label-hr:'AllPDF Pro'
+application-label-hu:'AllPDF Pro'
+application-label-hy:'AllPDF Pro'
+application-label-in:'AllPDF Pro'
+application-label-is:'AllPDF Pro'
+== permissions ==
+package: com.allpdf.pro
+permission: com.allpdf.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='com.allpdf.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+== size ==
+-rw-r--r-- 1 runner runner 42467949 Nov 22 09:11 AllPDF-Pro.apk
+== dex/lib entries ==
+     9558  1981-01-01 01:01   assets/dexopt/baseline.prof
+      435  1981-01-01 01:01   assets/dexopt/baseline.profm
+ 31664324  1981-01-01 01:01   classes.dex
+ 10524800  1981-01-01 01:01   classes2.dex
+  9349680  1981-01-01 01:01   classes3.dex
+  4756544  1981-01-01 01:01   classes4.dex
+    10096  1981-01-01 01:01   lib/arm64-v8a/libandroidx.graphics.path.so
+ 11064544  1981-01-01 01:01   lib/arm64-v8a/libmlkit_google_ocr_pipeline.so
+     7252  1981-01-01 01:01   lib/armeabi-v7a/libandroidx.graphics.path.so
+  6781940  1981-01-01 01:01   lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so
+     7149  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/83pv-RKSJ-H
+     6139  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90ms-RKSJ-H
+     4298  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90ms-RKSJ-V
+     6070  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90msp-RKSJ-H
+     4281  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90msp-RKSJ-V
+     7884  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90pv-RKSJ-H
+     3784  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/90pv-RKSJ-V
+    15107  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Add-RKSJ-H
+     3892  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Add-RKSJ-V
+     3898  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-0
+     4071  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-1
+     4091  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-2
+     4191  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-3
+     4211  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-4
+     4211  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-5
+     4211  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-6
+   265146  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-CNS1-UCS2
+     3361  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-0
+     3515  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-1
+     4469  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-2
+     4468  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-3
+     5020  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-4
+     5120  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-5
+   231913  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-GB1-UCS2
+     3410  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-0
+     3411  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-1
+     3449  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-2
+     3459  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-3
+     3937  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-4
+     4317  1981-01-01 01:01   assets/com/tom_roush/fontbox/resources/cmap/Adobe-Japan1-5
+grep: write error: Broken pipe
