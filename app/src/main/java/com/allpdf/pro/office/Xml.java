@@ -17,12 +17,10 @@ public final class Xml {
         public String get(String local) {
             if (a == null) return null;
             for (int i = 0; i < a.getLength(); i++) {
-                String q = a.getQName(i);
                 String ln = a.getLocalName(i);
-                if (ln == null || ln.isEmpty()) {
-                    int c = q.indexOf(':');
-                    ln = c >= 0 ? q.substring(c + 1) : q;
-                }
+                if (ln == null || ln.isEmpty()) ln = a.getQName(i);
+                int c = ln.indexOf(':');
+                if (c >= 0) ln = ln.substring(c + 1);
                 if (ln.equals(local)) return a.getValue(i);
             }
             return null;
@@ -50,9 +48,9 @@ public final class Xml {
     }
 
     private static String localOf(String localName, String qName) {
-        if (localName != null && !localName.isEmpty()) return localName;
-        int c = qName.indexOf(':');
-        return c >= 0 ? qName.substring(c + 1) : qName;
+        String n = localName != null && !localName.isEmpty() ? localName : qName;
+        int c = n.indexOf(':');
+        return c >= 0 ? n.substring(c + 1) : n;
     }
 
     public static void parse(InputStream in, Handler h) throws Exception {
