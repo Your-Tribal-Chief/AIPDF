@@ -354,7 +354,7 @@ object EditEngine {
                         when (f) {
                             is PDCheckBox -> if (v == "true") f.check() else f.unCheck()
                             is PDRadioButton -> if (v.isNotEmpty()) f.value = v
-                            is PDChoice -> if (v.isNotEmpty()) f.value = v
+                            is PDChoice -> if (v.isNotEmpty()) f.setValue(v)
                             is PDTextField -> f.value = v
                             else -> {}
                         }

@@ -45,7 +45,8 @@ fun ViewerScreen(file: File, nav: Nav) {
     val ctx = LocalContext.current
     val pages = rememberPages(file)
     var scale by remember { mutableFloatStateOf(1f) }
-    var night by remember { mutableStateOf(isDark()) }
+    val darkTheme = isDark()
+    var night by remember { mutableStateOf(darkTheme) }
     var toolsOpen by remember { mutableStateOf(false) }
     var jump by remember { mutableStateOf(false) }
     val list = rememberLazyListState()
