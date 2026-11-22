@@ -32,6 +32,8 @@ android {
 
     buildTypes {
         release {
+            // Real phones: ARM only (keeps the APK small). Debug keeps x86 for emulator tests.
+            ndk { abiFilters += listOf("arm64-v8a", "armeabi-v7a") }
             isMinifyEnabled = false
             isShrinkResources = false
             signingConfig = signingConfigs.getByName("release")
